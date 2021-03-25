@@ -10,14 +10,6 @@ h1 {
   font-size: 20px;
 }
 
-.nav-bars {
-  padding: 10px;
-  text-decoration: none;
-}
-a {
-  text-decoration: none;
-}
-
 nav {
   display: flex;
   justify-content: flex-end;
@@ -25,6 +17,14 @@ nav {
   font-size: 25px;
   background-color: rgba(174, 115, 174, 0.8);
 }
+
+.nav-bars {
+    padding: 10px;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
 
 .back-ground-img {
   width: 100%;
