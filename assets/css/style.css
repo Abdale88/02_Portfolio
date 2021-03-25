@@ -1,4 +1,8 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(174, 115, 174, 0.8);
+  }
 
 .back-ground-img{
     width: 100%;
