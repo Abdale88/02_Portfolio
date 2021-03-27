@@ -108,7 +108,7 @@ h1, h2{
   width: 25%;
 }
 
- img:active{
+ img:hover{
   transform: scale(1.5);
   box-shadow: 0 0 10px green;
 }
