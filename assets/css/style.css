@@ -1,7 +1,7 @@
 :root{
-    --dark: #1a1b4b;
-    --dark-mid: #292a73;
-    --light-mid:#3e4491;
+    --gray: #808080;
+    --light-gray: #DCDCDC;
+    --white:#fff
     --light: #3a9efd
     --accent:#f7a408;
     --page-margin: 0 2rem;
@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   line-height: 2rem;
   color: #fff;
-  background-color: white;
+  background-color: var(--light-gray);
 }
 
 h1 {
@@ -61,31 +61,39 @@ main{
 }
 
 .content{
-  /* background-color: var(--light-mid); */
+  background-color: var(--white);
+}
+h1, h2{
+  font-family: var(--serif);
+  font-size: 2rem;
+  color: var(--gray);
 }
 
 .about-me{
   display: flex;
   flex-direction: row;
-  border-bottom: white 1rem solid;
+  border-bottom: var(white) 1rem solid;
   background-color: var(--light);
 }
 
 .about-me > h2{
-  background-color: white;
-  color: gray;
   padding: 20px;
-  font-size: 2rem;
-  border-right: 6px solid rgba(128, 128, 128, 0.139);
-  height: 150px;
+  padding-top: 48px;
+  border-right: 6px solid var(--gray); 
+  height: 280px;
 }
 
 .about-me > article > p{
   background-color: white;
-  color: gray;
+  color: var(--gray);
   padding: 20px;
+  border-left: 20px solid var(--light-gray);
 
 }
+
+
+
+
 
 
 
