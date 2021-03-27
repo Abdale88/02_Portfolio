@@ -108,7 +108,7 @@ h1, h2{
   width: 25%;
 }
 
- section > .card:active{
+ img:active{
   transform: scale(1.5);
   box-shadow: 0 0 10px green;
 }
@@ -117,6 +117,36 @@ h1, h2{
   width: 100%;
 }
 
+section > div{
+  width: 180px;
+float: center;
+  padding: 20px;
+  border-radius: 2rem;
+  margin-right: 2px;
+  background-color: purple;
+  
+}
+
+.contact{
+  margin-top: 10px;
+  border: purple 4px solid;
+}
+.contact > div{
+  width: 100%;
+}
+
+.contact > div > ul{
+  display: flex;
+  justify-content: space-around;
+  color: yellow;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+footer{
+  margin: 40px;
+  background-color: purple;
+}
 
 @media screen and (max-width: 768px){
   .card{
@@ -132,7 +162,6 @@ h1, h2{
     height: 500px;
     width: 100%; 
     padding-bottom: 2px;
-    position: relative;
   }
 }
 
