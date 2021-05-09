@@ -113,18 +113,12 @@ h1, h2{
   box-shadow: 0 0 10px green;
 }
 
-.card img{
-  width: 100%;
-}
+
 
 section > div{
   width: 180px;
 float: center;
-  padding: 20px;
   border-radius: 2rem;
-  margin-right: 2px;
-  background-color: purple;
-  
 }
 
 .contact{
