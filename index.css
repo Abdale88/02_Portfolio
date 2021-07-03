@@ -1,0 +1,296 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html{
+    font-family: Proxima nova, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url(images/BG_01.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin: 20px;
+    /* background-color: yellow; */
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+}
+
+p{
+    color: white;
+    font-size:16px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 30px;
+}
+ul li:hover{
+    border-bottom: 2px solid red;
+  }
+
+li{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+nav{
+    height: 100px;
+    line-height: 100px ;
+}
+.content ul li a {
+    color: white;
+    
+}
+
+.content ul  li a:hover {
+    color:rgb(106, 152, 106);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a img{
+    vertical-align: middle
+}
+
+nav a:nth-child(2){
+    float:right
+}
+
+/* header */
+header{
+    margin: 100px 0 200px 0;
+    text-align: center;
+}
+
+header p{
+    width: 45%;
+    margin: 30px auto 0 auto
+}
+
+header a {
+    color: #ff4A5E;
+    text-decoration: none;
+}
+/* work */
+
+.work{
+    text-align: center;
+    width: 100%;
+}
+
+.work a img{
+    margin: 1%;
+    width: 45%;
+}
+
+.whatIDo{
+    text-align: center;
+    margin: 100px 0 200px 0;
+    position: relative;
+}
+
+.whatIDo h1 {
+    color: #13A3FD;
+}
+
+
+.work2{
+    width: 100%;
+    text-align: center;
+}
+.work2 a img{
+    margin: 1%;
+    width: 92%;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin:60px;
+}
+
+footer p {
+    color: #404348
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 280px) {
+
+
+    header p{
+        width: 100%;
+  
+    }
+    header h1{
+        font-size: 30px;
+    }
+    .work a img{
+        margin: 2%;
+        width: 96%;
+    }
+    .work2 a img{
+    
+        margin: 2%;
+        width: 96%;
+    }
+}
+
+ /* /* Medium devices (tablets, 768px and up) */
+ @media only screen and  (min-width: 768px) {
+
+    header p{
+        width: 100%;
+        
+    }
+    header h1{
+        font-size: 30px;
+    }
+    .work{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+       grid-column-gap: 6px;
+       grid-row-gap:6px;
+     }
+    .work  figure{
+        display: grid;
+        flex-direction: row;
+        flex-wrap: wrap;
+         width: 100%;
+         border: 2px solid rgb(73, 68, 61);
+         margin: 1%;
+    }
+    .work2 a img{
+    
+        margin: 2%;
+        width: 96%;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media only screen and  (min-width: 992px) {
+
+    header p{
+        width: 100%;
+    }
+
+    .work{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+       grid-column-gap: 6px;
+       grid-row-gap:6px;
+     }
+    .work  figure{
+        display: grid;
+        flex-direction: row;
+        flex-wrap: wrap;
+         width: 100%;
+         border: 2px solid rgb(73, 68, 61);
+         margin: 1%;
+    }
+   
+    .whatIDo  ul {
+        display: flex;
+        justify-content: space-between;
+
+    }
+ 
+  
+     footer{
+         text-align: left;
+         width: 90%;
+         margin: 60px auto;
+     }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px) {
+
+
+    header p{
+        width: 80%;
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+
+   
+
+    .work{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+       grid-column-gap: 6px;
+       grid-row-gap:6px;
+     }
+    .work  figure{
+        display: grid;
+        flex-direction: row;
+        flex-wrap: wrap;
+         width: 100%;
+         border: 2px solid rgb(73, 68, 61);
+         margin: 1%;
+    }
+
+
+    .whatIDo{
+        text-align: 96%;
+        width: 70%;
+        
+        margin: 30px auto 100px auto;
+        
+    }
+    .whatIDo  ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whatIDo  ul li a {
+        font-size: 20px;
+        color: white 
+    }
+ 
+    .whatIDo  ul li a:hover{
+        background-color: rgb(103, 167, 103);
+        border-radius: 3px;
+    }
+
+    footer{
+        text-align: left;
+        width: 90%;
+        margin: 60px auto;
+    }
+}
+
+
+
+
+
+
