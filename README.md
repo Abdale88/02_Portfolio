@@ -60,4 +60,4 @@ https://abdale88.github.io/02_Portfolio/
 
 ## License and copyright
 
-[Licence](./license/myLicense)
+[Licence](https://github.com/Abdale88/02_Portfolio/blob/main/license/mylicense)
