@@ -156,10 +156,11 @@ footer p {
         margin: 2%;
         width: 96%;
     }
-    .work2 a img{
-    
-        margin: 2%;
-        width: 96%;
+    .content ul{
+       display: flex;
+       flex-wrap: wrap;
+       padding: 20%;
+        /* background-color: yellowgreen; */
     }
 }
 
@@ -173,6 +174,13 @@ footer p {
     header h1{
         font-size: 30px;
     }
+
+    .content ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20%;
+         /* background-color: yellowgreen; */
+     }
     .work{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -200,6 +208,13 @@ footer p {
     header p{
         width: 100%;
     }
+
+    .content ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+         /* background-color: yellowgreen; */
+     }
 
     .work{
         display: grid;
@@ -242,7 +257,12 @@ footer p {
         font-size: 50px;
     }
 
-   
+    .content ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+         /* background-color: yellowgreen; */
+     }
 
     .work{
         display: grid;
